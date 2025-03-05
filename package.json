@@ -1,0 +1,23 @@
+{
+  "name": "referencefinder",
+  "version": "1.0.0",
+  "description": "Reference Number Finding System",
+  "license": "ISC",
+  "author": "chathura-ck",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
