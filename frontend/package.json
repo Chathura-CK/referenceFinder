@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "https://refnosfinder.azurewebsites.net",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
